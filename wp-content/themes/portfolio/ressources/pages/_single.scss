@@ -1,0 +1,123 @@
+.single {
+  position: relative;
+  .single__title {
+    text-align: center;
+    h2 {
+      font-size: 2.813rem;
+      padding: 4.375rem 0 1.875rem;
+    }
+    p {
+      font-size: 1.563rem;
+      padding: 0 3.375rem 6.25rem;
+    }
+    a {
+      position: absolute;
+      left: 1.25rem;
+      top: 1.25rem;
+      color: white;
+      font-size: 1.25rem;
+      text-decoration: none;
+      z-index: 1001;
+    }
+    a:hover{
+      color: #4D9859;
+    }
+    img {
+      width: 21.875rem;
+      height: 10.438rem;
+      border: 0.25rem solid #4D9859;
+      margin: 0 0.75rem 3.75rem;
+    }
+  }
+  .single__details {
+    padding-left: 1.25rem;
+    display: block;
+    h3 {
+      font-size: 1.875rem;
+      padding-bottom: 1.875rem;
+    }
+    p {
+      font-family: Helvetica, sans-serif;
+      line-height: 1.125rem;
+    }
+    .single__details__description {
+      padding-right: 2.5rem;
+    }
+    .single__details__tools {
+      margin:3.75rem 0 6.25rem;
+      a{
+        font-size: 1.25rem;
+        color: white;
+        text-decoration: none;
+        background-color: #4D9859;
+        padding: 0.938rem;
+      }
+    }
+  }
+  .single__gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.875rem;
+    align-items: center;
+    img {
+      margin: 1.875rem;
+      width: 20.25rem;
+      height: 9.563rem;
+      border: 0.25rem solid #4D9859;
+    }
+  }
+}
+.single__details__tools .button_profile {
+  margin-top: 3.125rem;
+}
+@media (min-width: 1200px) {
+  .single {
+    .single__title {
+      h2 {
+        font-size: 6.25rem;
+        padding: 6.25rem 0 4.375rem;
+      }
+      p {
+        font-size: 2.813rem;
+        padding-bottom: 9.375rem;
+      }
+      a {
+        left: 2.5rem;
+        top: -1.875rem;
+        font-size: 1.563rem;
+      }
+      img {
+        width: 62rem;
+        height: 32rem;
+        margin-bottom: 6.25rem;
+      }
+    }
+    .single__details {
+      padding: 0 15.563rem 6.25rem;
+      h3 {
+        font-size: 3.125rem;
+      }
+      p {
+        font-size: 1.25rem;
+      }
+      .single__details__description {
+        padding-right: 5rem;
+      }
+      .single__details__tools {
+        margin-top: 6.25rem;
+      }
+    }
+    .single__gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 50px;
+      justify-content: center;
+      padding-bottom: 100px;
+      img {
+        width: 35.25rem;
+        height: 22rem;
+      }
+    }
+  }
+}
