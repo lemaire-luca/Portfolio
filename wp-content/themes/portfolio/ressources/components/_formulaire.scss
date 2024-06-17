@@ -1,0 +1,78 @@
+.form {
+  padding-bottom: 3.125rem;
+  label, input, textarea, button {
+    box-sizing: border-box;
+  }
+  label {
+    font-size: 1.25rem;
+    color: white;
+    display: block;
+  }
+}
+
+input, textarea {
+  margin-top: 1.563rem;
+  background: none;
+  color: white;
+}
+.name, .mail {
+  padding-bottom: 1.875rem;
+}
+#name, #mail {
+  border-bottom: 0.063rem solid #4D9859;
+  border-right: none;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+#message {
+  border: 0.063rem solid #4D9859;
+  padding: 0.625rem 0 0 0.75rem;
+}
+.submit {
+  margin-top: 3.125rem;
+  text-align: center;
+  padding-right: 1.313rem;
+  input {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    background: none;
+    border: 0.188rem solid #4D9859;
+    padding: 0.938rem 2.188rem;
+    :hover {
+      border: 0.188rem solid white;
+    }
+  }
+}
+@media (min-width: 900px) {
+  label {
+    font-size: 1.563rem;
+  }
+  textarea::placeholder{
+    font-size: 0.875rem;
+  }
+  input, textarea {
+    font-size: 1.1rem;
+  }
+  .horizontal-information {
+    display: flex;
+    max-width: 26.25rem;
+    justify-content: space-between;
+  }
+  .name input, .mail input {
+    width: 11.25rem;
+  }
+  .submit {
+    margin-top: 1.875rem;
+    text-align: left;
+    padding-right: 0;
+  }
+  .infos_contact .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  textarea{
+     width: 26.25rem;
+  }
+}

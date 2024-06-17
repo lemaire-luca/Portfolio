@@ -1,0 +1,55 @@
+.collaboration {
+  text-align: center;
+  margin: 6.25rem 1.25rem 4.125rem;
+  padding: 1.875rem 0;
+  border: 0.313rem solid #4D9859;
+  .collaboration__text {
+    h3 {
+      font-size: 1.875rem;
+    }
+    p{
+      font-size: 1.25rem;
+      color: #4D9859;
+    }
+  }
+  .collaboration__button {
+    padding: 1.25rem 1.875rem;
+    border: 0.313rem solid #4D9859;
+    display: inline-block;
+    margin-top: 1.875rem;
+    a {
+      font-size: 1.25rem;
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      border: 0.313rem solid white;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .collaboration {
+    text-align: left;
+    margin: 12.5rem 13.75rem 9.375rem;
+    .collaboration__text {
+      padding: 1.875rem 0 0 3.125rem;
+      h3 {
+        font-size: 2.5rem;
+        padding-bottom: 1.875rem;
+      }
+      p {
+        font-size: 1.563rem;
+      }
+    }
+    .collaboration__button {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1.563rem 3.625rem;
+      margin: 0.625rem 5rem 1.875rem 38.75rem;
+      width: max-content;
+      a {
+        font-size: 1.563rem;
+      }
+    }
+  }
+}

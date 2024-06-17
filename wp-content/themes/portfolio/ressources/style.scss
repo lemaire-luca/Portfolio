@@ -1,0 +1,22 @@
+/*RESET*/
+@import "settings/reset";
+
+/*COMPONENTS*/
+@import "components/nav";
+@import "components/more-project";
+@import "components/collaboration";
+@import "components/formulaire";
+
+/*SECTION*/
+@import "section/title";
+@import "section/main";
+@import "section/profile";
+@import "section/footer";
+@import "section/all_projects";
+
+/*PAGES*/
+@import "pages/projets";
+@import "pages/contact";
+@import "pages/404";
+@import "pages/confidential";
+@import "pages/single";

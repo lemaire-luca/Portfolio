@@ -1,0 +1,102 @@
+.footer {
+  text-align: center;
+  padding-top: 3.125rem;
+  border-top: 0.0625rem solid #4D9859;
+  hr{
+    border-color: #4D9859;
+  }
+  .footer__top{
+    .footer__top__logo {
+      img {
+        width: 1.625rem;
+        height: 2.813rem;
+      }
+    }
+    .footer__top__icon__list {
+      padding-top: 1.1875rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      row-gap: 30px;
+      img {
+        width: auto;
+        height: 2.5rem;
+      }
+    }
+    .footer__top__button {
+      padding: 1.875rem 0 3.875rem;
+      a {
+        border: 0.188rem solid #4D9859;
+        padding: 0.875rem 1.25rem;
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+      }
+      :hover {
+        border: 0.188rem solid white;
+      }
+    }
+  }
+  .footer__bottom{
+    .footer__bottom__extra{
+      font-size: 0.813rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      row-gap: 0.625rem;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #4D9859;
+      }
+    }
+  }
+}
+@media (min-width: 900px) {
+  .footer {
+    padding-top: 1.5625rem;
+    .footer__top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .footer__top__logo {
+        padding-left: 6.5rem;
+      }
+      .footer__top__icon__list {
+        display: flex;
+        flex-direction: row;
+        column-gap: 85px;
+        padding-left: 3rem;
+        padding-top: inherit;
+
+        :last-child {
+          img {
+            height: 40px;
+            width: auto;
+          }
+        }
+      }
+      .footer__top__button {
+        margin: 1.1875rem 3rem 0 0;
+        padding-top: 2.5rem;
+        a {
+          padding: 1.25rem 1.875rem;
+          font-size: 1.25rem;
+        }
+      }
+    }
+    .footer__bottom{
+      padding: 1.25rem 0;
+      .footer__bottom__extra{
+        font-size: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3rem;
+      }
+    }
+  }
+}
