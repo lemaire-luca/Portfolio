@@ -3,20 +3,20 @@
         <section class="single">
             <div class="single__title">
                 <a class="back" href="<?= get_field('projet-back', 'option') ?>">Retour</a>
-                <h2><?= get_field('projet-title')?></h2>
+                <h2 role="heading" aria-label="2"><?= get_field('projet-title')?></h2>
                 <p><?= get_field('projet-intro')?></p>
-                <img src="<?= get_field('projet-image')?>" alt="landing page cv" width="20%">
+                <img src="<?= get_field('projet-image')?>" alt="landing page cv">
             </div>
             <div class="single__details">
                 <div class="single__details__description">
-                    <h3>Description</h3>
+                    <h3 role="heading" aria-label="3">Description</h3>
                     <p><?= get_field('projet-description')?></p>
                 </div>
                 <div class="single__details__tools">
-                    <h3>Outils utilisés</h3>
+                    <h3 role="heading" aria-label="3">Outils utilisés</h3>
                     <p><?= get_field('projet-langages')?></p>
                     <div class="button_profile">
-                        <a href="">Découvrir le site</a>
+                        <a href="<?= get_field('link-website')?>">Découvrir le site</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     while (have_rows('projet-gallery')) : the_row();
                         $image = get_sub_field('projet-gallery-image');
                         ?>
-                        <img src="<?= $image ?>" alt="photo du site" width="20%">
+                        <img src="<?= $image ?>" alt="photo du site">
                     <?php endwhile;
                 endif;
                 ?>

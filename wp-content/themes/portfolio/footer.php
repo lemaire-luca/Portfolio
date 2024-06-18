@@ -27,9 +27,9 @@
             </div>
         </div>
         <hr>
-        <div class="footer__bottom">
+        <div itemscope itemprop="https://schema.org/Person" class="footer__bottom">
             <div class="footer__bottom__extra">
-                <p>© 2024 Luca Lemaire. Tous droits réservés.</p>
+                <p>© 2024 <span itemprop="name">Luca Lemaire</span>. Tous droits réservés.</p>
                 <a href="<?=get_field('button-confidential', 'options');?>">Politique de confidentialités</a>
             </div>
         </div>
