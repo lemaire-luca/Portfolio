@@ -3,17 +3,17 @@
         <section class="single">
             <div class="single__title">
                 <a class="back" href="<?= get_field('projet-back', 'option') ?>">Retour</a>
-                <h2 role="heading" aria-label="2"><?= get_field('projet-title')?></h2>
+                <h2 role="heading" aria-level="2"><?= get_field('projet-title')?></h2>
                 <p><?= get_field('projet-intro')?></p>
                 <img src="<?= get_field('projet-image')?>" alt="landing page cv">
             </div>
             <div class="single__details">
                 <div class="single__details__description">
-                    <h3 role="heading" aria-label="3">Description</h3>
+                    <h3 role="heading" aria-level="3">Description</h3>
                     <p><?= get_field('projet-description')?></p>
                 </div>
                 <div class="single__details__tools">
-                    <h3 role="heading" aria-label="3">Outils utilisés</h3>
+                    <h3 role="heading" aria-level="3">Outils utilisés</h3>
                     <p><?= get_field('projet-langages')?></p>
                     <div class="button_profile">
                         <a href="<?= get_field('link-website')?>">Découvrir le site</a>

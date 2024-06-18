@@ -1,6 +1,6 @@
 <div class="collaboration">
     <div class="collaboration__text">
-        <h3 class="collaboration__text__title">
+        <h3 role="heading" aria-level="3" class="collaboration__text__title">
             <?= get_field('collaboration-title', 'option'); ?>
         </h3>
         <p class="green">Voyons ce que nous pouvons créer ensemble.</p>
