@@ -3,11 +3,14 @@
   display: flex;
   flex-direction: column;
   &__img {
-    height: 16.8125rem;
-    width: 12.375rem;
-    border: 0.3rem solid #4D9859;
-    margin: auto;
     position: relative;
+    img{
+      width: 408px;
+      height: 553px;
+      object-fit: cover;
+      border: 0.3rem solid #4D9859;
+      margin: auto;
+    }
     span {
       position: absolute;
       color: white;
@@ -20,13 +23,13 @@
       left: -2.75rem;
     }
     .nationality {
-      bottom: 2rem;
+      bottom: 3rem;
       right: -1.5rem;
     }
   }
   &__infos {
     color: white;
-    padding: 0 3rem 6.25rem;
+    padding: 0 3rem 6.25rem 0;
     h2{
       text-align: left;
     }
