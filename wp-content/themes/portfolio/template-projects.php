@@ -1,6 +1,6 @@
 <?php /* Template Name: projects page template */ ?>
 <?php get_header(); ?>
-    <main>
+    <main role="main">
         <section class="projects">
             <div class="projects__infos">
                 <h2 role="heading" aria-level="2">Mes projets</h2>
