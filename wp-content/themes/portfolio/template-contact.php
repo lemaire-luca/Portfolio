@@ -3,12 +3,12 @@
 <section id="contact" class="contact">
     <div class="contact__image-information">
         <img src="<?= get_field('image-contact')?>" alt="Image de lemaire luca">
-        <div class="contact__image-information__span">
+        <div itemscope itemprop="https://schema.org/Person" class="contact__image-information__span">
             <a href="tel:+32 (0)470 61 50 28">
-                <span class="num">+32 (0)470 61 50 28</span>
+                <span itemprop="telephone" class="num">+32 (0)470 61 50 28</span>
             </a>
             <a href="mailto:lucalemaire@hotmail.fr">
-                <span class="mail-l">lucalemaire@hotmail.fr</span>
+                <span itemprop="email" class="mail-l">lucalemaire@hotmail.fr</span>
             </a>
         </div>
     </div>
