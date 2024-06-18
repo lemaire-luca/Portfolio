@@ -16,7 +16,8 @@
   .projects__slider {
     display: flex;
     flex-direction: row;
-    padding-left: 3.938rem;
+    padding: 0 3.938rem;
+    justify-content: center;
     overflow-x: auto;
     white-space: nowrap;
 

@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
     <main role="main">
-        <h2 role="heading" aria-level="2" class="main">Politique de confidentialité</h2>
         <section class="confidential">
+            <h2 role="heading" aria-level="2" class="main">Politique de confidentialité</h2>
             <p class="confidential__update">Dernières mise à jour le :
                 <span><?= get_field('confidential-update'); ?></span></p>
             <p class="confidential__intro">Lemaire Luca accorde une importance capitale à la protection de vos données

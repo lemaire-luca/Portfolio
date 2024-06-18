@@ -2,8 +2,8 @@
 <?php get_header(); ?>
     <section id="contact" class="contact">
         <div class="contact__image-information">
-            <img src="<?= get_field('image-contact') ?>" alt="Image de lemaire luca">
             <div itemscope itemprop="https://schema.org/Person" class="contact__image-information__span">
+                <img src="<?= get_field('image-contact') ?>" alt="Image de lemaire luca">
                 <a href="tel:+32 (0)470 61 50 28">
                     <span itemprop="telephone" class="num">+32 (0)470 61 50 28</span>
                 </a>

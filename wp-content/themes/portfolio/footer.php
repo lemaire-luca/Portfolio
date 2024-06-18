@@ -1,5 +1,5 @@
-<section class="footer" id="footer">
-    <h3 role="heading" aria-level="3" class="hidden">footer</h3>
+<footer class="footer" id="footer">
+    <h3 role="heading" aria-level="3" class="hidden">Footer</h3>
     <div class="footer__top">
         <div class="footer__top__logo">
             <a href="<?= get_field('home_link', 'option') ?>">
@@ -33,4 +33,4 @@
             <a href="<?= get_field('button-confidential', 'options'); ?>">Politique de confidentialités</a>
         </div>
     </div>
-</section>
+</footer>
