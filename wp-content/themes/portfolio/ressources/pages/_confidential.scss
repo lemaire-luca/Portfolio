@@ -1,61 +1,73 @@
-.main{
+.main {
   font-size: 3.125rem;
   text-align: center;
   padding-top: 6.25rem;
 }
-.confidential{
-  h3{
+
+.confidential {
+  h3 {
     font-size: 1.875rem;
     color: #4D9859;
   }
-  p{
+
+  p {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 1rem;
     padding-top: 0.625rem;
   }
-  .confidential__update{
+
+  .confidential__update {
     text-align: center;
     padding: 3.125rem 1.25rem;
-    span{
+
+    span {
       color: #4D9859;
       font-family: "Bebas Neue", sans-serif;
       font-size: 1.5rem;
     }
   }
-  .confidential__intro{
+
+  .confidential__intro {
     padding: 0 1.25rem 3.125rem 0.938rem;
   }
-  .confidential__container{
+
+  .confidential__container {
     padding: 0 1.25rem 3.125rem 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    .confidential__container__article{
-      .confidential__container__article__infos{
+
+    .confidential__container__article {
+      .confidential__container__article__infos {
         color: #4D9859;
       }
     }
   }
 }
+
 @media (min-width: 768px) {
-  h2{
+  h2 {
     font-size: 6.25rem;
   }
-  .confidential{
-    h3{
+  .confidential {
+    h3 {
       font-size: 3.125rem;
     }
-    p{
+
+    p {
       font-size: 1.2rem;
       padding: 0.625rem 21.875rem 0 0;
     }
-    .confidential__update{
+
+    .confidential__update {
       padding: 3.125rem 0;
     }
-    .confidential__intro{
+
+    .confidential__intro {
       padding: 0 12.5rem 3.125rem 9.375rem;
     }
-    .confidential__container{
+
+    .confidential__container {
       padding: 0 0 3.125rem 9.375rem;
     }
   }

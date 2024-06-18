@@ -1,19 +1,23 @@
-.error{
-  .error__content{
+.error {
+  .error__content {
     text-align: center;
-    h3{
+
+    h3 {
       font-size: 3.75rem;
       padding-top: 6.25rem;
       color: #4D9859;
     }
-    p{
+
+    p {
       font-size: 1.875rem;
       padding-top: 1.25rem;
     }
-    .error__content__button{
+
+    .error__content__button {
       padding-bottom: 6.25rem;
       padding-top: 3.125rem;
-      a{
+
+      a {
         background-color: #4D9859;
         padding: 0.938rem;
         text-decoration: none;
@@ -21,7 +25,8 @@
         font-size: 1.563rem;
         transition: background-color 0.5s ease, color 0.5s ease;
       }
-      :hover{
+
+      :hover {
         background-color: white;
         color: #4D9859;
         transition: background-color 0.5s ease, color 0.5s ease;
@@ -29,18 +34,21 @@
     }
   }
 }
+
 @media (min-width: 900px) {
-  .error{
-    .error__content{
-      h3{
+  .error {
+    .error__content {
+      h3 {
         font-size: 9.375rem;
         padding-top: 9.375rem;
       }
-      p{
+
+      p {
         font-size: 3.75rem;
         padding-top: 3.125rem;
       }
-      .error__content__button{
+
+      .error__content__button {
         padding-bottom: 12.5rem;
         padding-top: 3.125rem;
       }

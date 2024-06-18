@@ -3,24 +3,29 @@ header {
   top: 1.25rem;
   z-index: 1001;
 }
+
 .navigation {
   display: flex;
   background-color: #4D9859;
   border-radius: 1.8125rem;
   margin: 1.875rem 0.625rem 0;
+
   &__logo-container {
     padding: 0.625rem 0;
     display: flex;
     flex: 1;
-    a{
+
+    a {
       padding-left: 2.5rem;
-      img{
+
+      img {
         width: 1.625rem;
         height: 2.8125rem;
       }
     }
   }
-  &__container{
+
+  &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,48 +41,57 @@ header {
     transform: translateY(-100vh);
     background-color: #232325;
     transition: 0.5s ease;
+
     a {
       color: white;
       text-decoration: none;
     }
   }
+
   #burger-toggle:checked ~ &__container {
     opacity: 100;
     transform: translateY(0);
   }
 }
+
 .navigation input {
   visibility: hidden;
 }
-#burger-menu{
+
+#burger-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0.375rem 1.688rem 0 0;
+
+  span {
+    display: block;
+    margin-bottom: 0.25rem;
+    background-color: #fff;
+    width: 1.875rem;
+    min-height: 0.25rem;
+    transition: 0.5s;
+  }
 }
-#burger-menu span{
-  display: block;
-  margin-bottom: 0.25rem;
-  background-color: #fff;
-  width: 1.875rem;
-  min-height: 0.25rem;
-  transition: 0.5s;
-}
-#burger-menu, #burger-toggle{
+
+#burger-menu, #burger-toggle {
   display: inline-block;
   padding-top: 1.5rem;
 }
 
-.navigation__logo-container, .burger_menu{
+.navigation__logo-container, .burger_menu {
   z-index: 1000;
 }
+
 #burger-toggle:checked ~ .burger_menu span:first-child {
   transform: translateY(0.5rem) rotate(45deg);
   transition: 0.5s;
 }
+
 #burger-toggle:checked ~ .burger_menu span:nth-child(2) {
   opacity: 0;
 }
+
 #burger-toggle:checked ~ .burger_menu span:last-child {
   transform: translateY(-0.5rem) rotate(-45deg);
   transition: 0.5s;
@@ -94,6 +108,7 @@ header {
     height: 4rem;
     width: max-content;
     margin: 0 auto;
+
     &__container {
       display: flex;
       flex-direction: row;
@@ -105,29 +120,37 @@ header {
       opacity: 100;
       height: inherit;
       transform: translateY(0);
+
       li {
         display: flex;
         margin: 0 1.375rem;
+
         :hover {
           margin: -1.6rem;
         }
+
         &:first-child {
           margin-left: 0;
+
           :hover {
             margin-left: -1.5625rem;
           }
         }
+
         &:last-child {
           margin-right: 0;
+
           :hover {
             margin-right: -1.5625rem;
           }
         }
+
         a {
           font-size: 1.4375rem;
           color: white;
           text-decoration: none;
         }
+
         a:hover {
           background-color: white;
           color: black;

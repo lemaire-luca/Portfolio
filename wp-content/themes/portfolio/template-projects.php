@@ -15,9 +15,9 @@
                         $link = get_sub_field('link');
                         ?>
                         <div class="projects__slider__image">
-                            <a href="<?= $link?>">
+                            <a href="<?= $link ?>">
                                 <h3 role="heading" aria-level="3"><?= $title ?></h3>
-                                <img src="<?= $image?>" alt="Projet curriculum vitae">
+                                <img src="<?= $image ?>" alt="Projet curriculum vitae">
                             </a>
                         </div>
                     <?php endwhile;

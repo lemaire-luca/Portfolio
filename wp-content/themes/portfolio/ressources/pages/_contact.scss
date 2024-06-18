@@ -1,17 +1,21 @@
 .contact {
   display: flex;
   flex-direction: column;
+
   &__image-information {
     display: none;
   }
+
   &__container {
     padding-left: 1.313rem;
+
     &__infos {
       h2 {
         font-size: 2.813rem;
         padding: 3.75rem 0 3.125rem;
         text-align: left;
       }
+
       p {
         font-size: 1.563rem;
         padding-bottom: 3.125rem;
@@ -25,6 +29,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 12rem 0 6rem;
+
     &__image-information {
       order: 0;
       flex: 1;
@@ -32,12 +37,14 @@
       display: flex;
       padding-top: 6.25rem;
       position: relative;
+
       img {
         width: 29.25rem;
         height: 29.25rem;
         border: 0.313rem solid #4D9859;
         display: inherit;
       }
+
       .contact__image-information__span {
         span {
           position: absolute;
@@ -46,26 +53,31 @@
           padding: 1.125rem 2.1875rem;
           font-size: 1.25rem;
         }
+
         .num {
           top: 9.375rem;
           left: 0;
           width: 8rem;
         }
+
         .mail-l {
           bottom: 10.625rem;
           right: 0;
         }
       }
     }
+
     .contact__container {
       order: 1;
       flex: 1;
       padding-top: 2.5rem;
-      .contact__container__infos{
+
+      .contact__container__infos {
         h2 {
           font-size: 6.25rem;
           padding-bottom: 0.938rem;
         }
+
         p {
           font-size: 1.875rem;
           padding-bottom: 1.875rem;
@@ -76,16 +88,18 @@
 }
 
 @media (min-width: 900px) and (max-width: 1200px) {
-  .contact{
-    .contact__image-information{
+  .contact {
+    .contact__image-information {
       display: none;
     }
-    .contact__container{
+
+    .contact__container {
       display: flex;
       flex-direction: column;
       align-items: center;
-      .contact__container__infos{
-        h2{
+
+      .contact__container__infos {
+        h2 {
           font-size: 4rem;
         }
       }
