@@ -9,8 +9,10 @@
     margin: 0 auto;
 
     img {
-      width: 408px;
-      height: 553px;
+     /* width: 408px;
+      height: 553px;*/
+      width: auto;
+      height: 16rem;
       object-fit: cover;
       border: 0.3rem solid #4D9859;
       margin: auto;
@@ -71,14 +73,16 @@
         padding: 1rem 2rem;
         text-decoration: none;
         color: white;
-        background-color: #4D9859;
+        border: 0.125rem solid #4D9859;
+        /*background-color: #4D9859;*/
         transition: background-color 0.5s ease, color 0.5s ease;
       }
 
       :hover {
         transition: background-color 0.5s ease, color 0.5s ease;
-        background-color: white;
-        color: black;
+        border: 0.125rem solid #fff;
+        /*background-color: white;*/
+        /*color: black;*/
       }
     }
   }
@@ -90,10 +94,14 @@
     flex-direction: row;
 
     &__img {
-      width: 26.25rem;
-      height: 36.5625rem;
+      /*width: 26.25rem;
+      height: 36.5625rem;*/
       order: 1;
-      margin: 0 12.5rem 9.375rem 10rem;
+      margin: 0 /*12.5rem*/ 10rem 9.375rem /*10rem*/ 0;
+      img {
+        width: auto;
+        height: 34.563rem;
+      }
 
       span {
         padding: 1.125rem 2.1875rem;
@@ -114,7 +122,6 @@
 
       &__big {
         font-size: 5rem;
-        padding-bottom: 1.875rem;
         padding-top: 3.125rem;
       }
 
