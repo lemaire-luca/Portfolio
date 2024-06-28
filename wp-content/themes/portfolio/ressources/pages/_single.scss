@@ -1,5 +1,7 @@
 .single {
   position: relative;
+  animation-name: transition;
+  animation-duration: 2s;
 
   .single__title {
     text-align: center;
@@ -136,9 +138,9 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      row-gap: 50px;
+      row-gap: 3.125rem;
       justify-content: center;
-      padding-bottom: 100px;
+      padding-bottom: 6.25rem;
 
       img {
         width: 35.25rem;
