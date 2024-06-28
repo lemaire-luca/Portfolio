@@ -1,6 +1,8 @@
 .contact {
   display: flex;
   flex-direction: column;
+  animation-name: transition;
+  animation-duration: 2s;
 
   &__image-information {
     display: none;

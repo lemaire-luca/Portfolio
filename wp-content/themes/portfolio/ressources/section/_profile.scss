@@ -6,6 +6,7 @@
 
   &__img {
     position: relative;
+    margin: 0 auto;
 
     img {
       width: 408px;
@@ -36,7 +37,7 @@
 
   &__infos {
     color: white;
-    padding: 0 3rem 6.25rem 0;
+    padding: 0 3rem 6.25rem;
 
     h2 {
       text-align: left;
@@ -102,6 +103,7 @@
 
     &__infos {
       order: 2;
+      padding-left: 0;
 
       p {
         font-family: Helvetica, sans-serif;
