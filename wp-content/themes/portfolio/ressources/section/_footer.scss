@@ -21,7 +21,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      row-gap: 30px;
+      row-gap: 1.875rem;
 
       img {
         width: auto;
@@ -83,13 +83,13 @@
       .footer__top__icon__list {
         display: flex;
         flex-direction: row;
-        column-gap: 85px;
+        column-gap: 5.313rem;
         padding-left: 3rem;
         padding-top: inherit;
 
         :last-child {
           img {
-            height: 40px;
+            height: 2.5rem;
             width: auto;
           }
         }
